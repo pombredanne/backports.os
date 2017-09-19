@@ -27,7 +27,8 @@ setup(
     packages=find_packages('src'),
 
     setup_requires=['setuptools_scm'],
-    use_scm_version=True,
+    use_scm_version=False,
+    version='0.1.patch1',
 
     install_requires=_python2_requires,
 
